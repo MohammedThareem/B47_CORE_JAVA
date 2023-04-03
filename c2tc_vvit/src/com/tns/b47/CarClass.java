@@ -4,6 +4,11 @@ public class CarClass {
 	int model;
 	int reg;
 	String color;
+	
+	//constructor
+	CarClass(){
+		System.out.println("Model" + model+"reg"+reg );
+	}
 
 void forward(){
 	System.out.println("Car is moving forward");
